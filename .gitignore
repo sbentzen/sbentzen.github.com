@@ -1,0 +1,19 @@
+#
+# OS X noise
+#
+
+.DS_Store
+Icon
+.Spotlight-V100
+.Trashes
+
+#
+# Misc
+#
+
+*~
+*.bak
+*.o
+*.pyc
+*.pyo
+
