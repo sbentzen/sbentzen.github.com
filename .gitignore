@@ -8,6 +8,13 @@ Icon
 .Trashes
 
 #
+# Jekyll
+#
+*~
+_site/
+
+
+#
 # Misc
 #
 
@@ -16,4 +23,3 @@ Icon
 *.o
 *.pyc
 *.pyo
-

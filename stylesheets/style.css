@@ -1,15 +1,9 @@
-	/*Colors f3f3f3 :White
-				 5E685F :Green
-				 010D00 :Blackish
-				 A17D71 :Pinkish
-				 230100 :Brownish*/
-
        		body {
 				width:0 auto;
 				display:block;
 				text-align:left;
 				font: 12pt "Helvetica Neue", "Trebuchet MS", Verdana, sans-serif;
-				background-image: url("./_images/bgp.png");
+				background-image: url("../images/bgp.png");
 				background-repeat: repeat;
 				text-shadow: 2px 2px 2px #000;
 				color:#F3F3F3;
@@ -24,6 +18,11 @@
 			ul li{
 				list-style: none;
 				margin-right:5em;
+			}
+			#_sidebar{
+				position:absolute;
+				left:1em;
+				top:4em;
 			}
 			#content{
 				width:700px;
@@ -43,7 +42,7 @@
 				width:640px;
 				height:480px;                                                          
 				display: block;
-				background-image: url('./_images/LandingImage.png');
+				background-image: url('../images/LandingImage.png');
 				background-position:0px 0px;
 				-webkit-border-radius:2px;
 				-moz-border-radius:2px;
