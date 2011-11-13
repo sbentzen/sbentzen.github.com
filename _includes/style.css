@@ -1,0 +1,61 @@
+	/*Colors f3f3f3 :White
+				 5E685F :Green
+				 010D00 :Blackish
+				 A17D71 :Pinkish
+				 230100 :Brownish*/
+
+       		body {
+				width:0 auto;
+				display:block;
+				text-align:left;
+				font: 12pt "Helvetica Neue", "Trebuchet MS", Verdana, sans-serif;
+				background-image: url("./_images/bgp.png");
+				background-repeat: repeat;
+				text-shadow: 2px 2px 2px #000;
+				color:#F3F3F3;
+			}
+			a{
+				text-decoration:underline;
+				color:#A17D71;
+			}
+			a:hover{
+			    color:#5E685F;
+			}
+			ul li{
+				list-style: none;
+				margin-right:5em;
+			}
+			#content{
+				width:700px;
+				margin:0 auto;
+				line-height:1.25em;
+				
+			}
+			#Image_Container{
+				-webkit-transform: rotate(3deg) scale(1) skew(1deg) translate(10px);
+				-moz-transform: rotate(-3deg) scale(1) skew(1deg) translate(10px);
+				-o-transform: rotate(3deg) scale(1) skew(1deg) translate(10px);
+				margin-left: auto;
+				margin-right: auto;
+				width:640px;
+			}
+			#LandingImage {
+				width:640px;
+				height:480px;                                                          
+				display: block;
+				background-image: url('./_images/LandingImage.png');
+				background-position:0px 0px;
+				-webkit-border-radius:2px;
+				-moz-border-radius:2px;
+				-webkit-box-shadow: 0 0 5px #333;
+				-moz-box-shadow: 0 0 5px #333;
+				box-shadow: 0 0 5px #333;
+				text-decoration:none;
+				border: 1px solid #333;
+			}
+			#LandingImage:hover {
+				background-position:-640px 0px;
+			}
+			.hidden{
+				display:none;
+			}
