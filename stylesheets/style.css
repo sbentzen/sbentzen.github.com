@@ -20,7 +20,7 @@
 				margin-right:5em;
 			}
 			#_sidebar{
-				position:absolute;
+				position:fixed;
 				left:1em;
 				top:4em;
 			}
