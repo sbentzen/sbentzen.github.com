@@ -1,0 +1,73 @@
+/*
+002F32
+42826C
+A5C77F
+FFC861
+C84663
+*/
+
+body {
+	width:0 auto;
+	display:block;
+	text-align:left;
+	font: 12pt "Helvetica Neue", "Trebuchet MS", Verdana, sans-serif;
+	background-image: url("../images/bgp.png");
+	background-repeat: repeat;
+	text-shadow: 2px 2px 2px #000;
+	color:#F3F3F3;
+}
+
+h1{
+	color:#C84663;
+}
+
+a{
+	text-decoration:underline;
+	color:#A5C77F;
+}
+a:hover{
+    color:#FFC861;
+}
+ul li{
+	list-style: none;
+	margin-right:5em;
+}
+#_sidebar{
+	position:fixed;
+	left:1em;
+	top:4em;
+}
+#content{
+	width:700px;
+	margin:0 auto;
+	line-height:1.25em;
+	
+}
+#Image_Container{
+	-webkit-transform: rotate(3deg) scale(1) skew(1deg) translate(10px);
+	-moz-transform: rotate(-3deg) scale(1) skew(1deg) translate(10px);
+	-o-transform: rotate(3deg) scale(1) skew(1deg) translate(10px);
+	margin-left: auto;
+	margin-right: auto;
+	width:640px;
+}
+#LandingImage {
+	width:640px;
+	height:480px;                                                          
+	display: block;
+	background-image: url('../images/LandingImage.png');
+	background-position:0px 0px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-box-shadow: 0 0 5px #333;
+	-moz-box-shadow: 0 0 5px #333;
+	box-shadow: 0 0 5px #333;
+	text-decoration:none;
+	border: 1px solid #333;
+}
+#LandingImage:hover {
+	background-position:-640px 0px;
+}
+.hidden{
+	display:none;
+}

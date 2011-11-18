@@ -1,0 +1,15 @@
+---
+layout: default
+title: Blog
+---
+{% include sidebar.html %}
+<div id="content">
+    <h1 style="font-size:32pt;">All My Posts</h1>
+    <br/>
+    {% for post in site.posts %}
+    <h3>
+        <a href="{{post.url}}">{{ post.title }}</a>
+    </h3>
+    <span style="font-size:10pt;">{{ post.date | date: '%B' }} {{ post.date | date: '%e' }}, {{ post.date | date: '%Y' }}</span>
+    {% endfor %}
+</div>
