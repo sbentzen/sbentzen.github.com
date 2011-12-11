@@ -1,0 +1,7 @@
+User-agent: MSNBot
+Disallow: /
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Sitemap: http://bentzen.ws
+
