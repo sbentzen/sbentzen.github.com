@@ -10,7 +10,7 @@ body {
 	width:0 auto;
 	display:block;
 	text-align:left;
-	font: 12pt "Helvetica Neue", "Trebuchet MS", Verdana, sans-serif;
+	font: 12pt Helvetica, Arial, Verdana, sans-serif;
 	background-image: url("../images/bgp.png");
 	background-repeat: repeat;
 	text-shadow: 2px 2px 2px #000;
