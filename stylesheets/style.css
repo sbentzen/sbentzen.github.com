@@ -20,7 +20,6 @@ body {
 h1{
 	color:#C84663;
 }
-
 a{
 	text-decoration:underline;
 	color:#A5C77F;
@@ -37,6 +36,9 @@ ul li{
 	left:1em;
 	top:4em;
 	font-size:14pt;
+}
+.gist{
+	text-shadow:none;
 }
 #content{
 	width:700px;
