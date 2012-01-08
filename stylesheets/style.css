@@ -35,13 +35,10 @@ ul {
 	position:fixed;
 	left:0em;
 	top:0em;
-	margin-left:1em;
-	padding-top:4em;
+	padding-left:1em;
+	padding-top:3em;
 	width:125px;
 	height:100%;
-}
-.gist{
-	text-shadow:none;
 }
 #post_listing{
 	width:auto;
@@ -49,39 +46,45 @@ ul {
 #post_listing li{
 	padding-bottom:0.5em;
 }
-
+#myface{
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-box-shadow: 0 0 5px #333;
+	-moz-box-shadow: 0 0 5px #333;
+	opacity:0.8;
+}
+#myface:hover{
+	opacity:1.0;
+}
+#bio{
+	width:750px;
+	margin:0 auto;
+}
 #content{
 	width:900px;
 	margin-left:135px;
 }
-#Image_Container{
-	-webkit-transform: rotate(3deg) scale(1) skew(1deg) translate(10px);
-	-moz-transform: rotate(-3deg) scale(1) skew(1deg) translate(10px);
-	-o-transform: rotate(3deg) scale(1) skew(1deg) translate(10px);
+#header_image{
+	width:750px;
+	display:block;
 	margin:0 auto;
-	width:640px;
-}
-#LandingImage {
-	width:640px;
-	height:480px;                                                          
-	display: block;
-	background-image: url('../images/LandingImage.png');
-	background-position:0px 0px;
 	-webkit-border-radius:2px;
 	-moz-border-radius:2px;
+	border-radius:2px;
 	-webkit-box-shadow: 0 0 5px #333;
 	-moz-box-shadow: 0 0 5px #333;
 	box-shadow: 0 0 5px #333;
 	text-decoration:none;
-	border: 1px solid #333;
 }
-#LandingImage:hover {
-	background-position:-640px 0px;
+.name{
+	text-transform: uppercase;
+}
+.gist{
+	text-shadow:none;
 }
 .hidden{
 	display:none;
 }
 .date{
 	font-size:10pt;
-	
 }
