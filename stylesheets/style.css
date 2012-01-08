@@ -13,6 +13,7 @@ body {
 	background-repeat: repeat;
 	text-shadow: 1px 1px 1px #000;
 	color:#F3F3F3;
+	margin-top:2em;
 }
 div{
 	display:block
@@ -33,10 +34,7 @@ ul {
 }
 #_sidebar{
 	position:fixed;
-	left:0em;
-	top:0em;
 	padding-left:1em;
-	padding-top:3em;
 	width:125px;
 	height:100%;
 }
@@ -52,6 +50,8 @@ ul {
 	-webkit-box-shadow: 0 0 5px #333;
 	-moz-box-shadow: 0 0 5px #333;
 	opacity:0.8;
+	width:76px;
+	height:76px;
 }
 #myface:hover{
 	opacity:1.0;
@@ -61,7 +61,7 @@ ul {
 	margin:0 auto;
 }
 #content{
-	width:900px;
+	width:800px;
 	margin-left:135px;
 }
 #header_image{
