@@ -2,15 +2,11 @@
 layout: default
 title: Blog
 ---
-{% include sidebar.html %}
-<div id="content">
-    <h1>All My Posts</h1>
-	<ul id="post_listing">
-    {% for post in site.posts %}
-    <li>	
-        <a href="{{post.url}}">{{ post.title }}</a>
-        <span class="date" style="float:right;">{{ post.date | date: '%B' }} {{ post.date | date: '%e' }}, {{ post.date | date: '%Y' }}</span>
-    </li>
-	{% endfor %}
-	</ul>
-</div>
+<ul id="post_listing">
+{% for post in site.posts %}
+<li>	
+    <a href="{{post.url}}">{{ post.title }}</a>
+    <span class="date" style="float:right;">{{ post.date | date: '%B' }} {{ post.date | date: '%e' }}, {{ post.date | date: '%Y' }}</span>
+</li>
+{% endfor %}
+</ul>
