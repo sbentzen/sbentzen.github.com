@@ -16,9 +16,10 @@ body {
 	margin-top:1em;
 }
 div{
-	display:block
+	display:block;
 }
 h2{
+	font-family:'Ruda', sans-serif;
 	color:#CC766D;
 	border-bottom:1px solid #777;
 }
