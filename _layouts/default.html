@@ -3,8 +3,12 @@
     {%include header.html%}
 </head>
 <body>
-   	 {%include sidebar.html%}
-		<div id="content">
-		{{content}}
-	</div>
+  <div class="container-fluid">
+    <div class="sidebar">
+      {% include sidebar.html %}
+    </div>
+    <div class="content">
+      {{content}}
+    </div>
+  </div>
 </body>
