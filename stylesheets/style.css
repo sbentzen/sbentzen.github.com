@@ -12,6 +12,9 @@ body {
 	color:#F3F3F3;
 	margin-top:1em;
 }
+code{
+	text-shadow:none;
+}
 h2{
 	font-family:'Ruda', sans-serif;
 	color:#CC766D;
