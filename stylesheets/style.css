@@ -10,7 +10,7 @@ body {
 	background: #333 url("/images/bgp.png") repeat scroll top left;
 	text-shadow: 1px 1px 1px #333;
 	color:#F3F3F3;
-	margin-top:1em;
+	margin-top:3em;
 }
 code{
 	text-shadow:none;
@@ -41,17 +41,14 @@ a:hover{
 	-webkit-box-shadow: 0 0 5px #333;
 	-moz-box-shadow: 0 0 5px #333;
 	opacity:0.8;
-	width:76px;
-	height:76px;
+	margin-right:1em;
+	float:left;
 }
 #myface:hover{
 	opacity:1.0;
 }
-#bio{
-	width:750px;
-}
 #header_image{
-	width:750px;
+	width:940px;
 	display:block;
 	-webkit-border-radius:2px;
 	-moz-border-radius:2px;
@@ -63,7 +60,7 @@ a:hover{
 }
 .container-fluid > .sidebar {
 	position: fixed;
-	top:1em;
+	top:2em;
 	width:auto;
 }
 .sidebar ul{
