@@ -12,7 +12,7 @@ type: post
 Today is my **21st** birthday and I just wanted to shamelessly post a birthday update.  
 I recently bought a [timbuk2](http://timbuk2.com) messenger bag, hasn't arrived yet but I'll post pictures when it does.  
  
-<blockquote class="twitter-tweet"><p>Apparently I got a <a href="https://twitter.com/search/%2523DiabloBeta">#DiabloBeta</a> invite, awesome</p>&mdash; Shaun Bentzen (@smbentzen) <a href="https://twitter.com/smbentzen/status/165277086880243712" data-datetime="2012-02-03T03:35:02+00:00">February 3, 2012</a></blockquote><script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+&#x20;<blockquote class="twitter-tweet"><p>Apparently I got a <a href="https://twitter.com/search/%2523DiabloBeta">#DiabloBeta</a> invite, awesome</p>&mdash; Shaun Bentzen (@smbentzen) <a href="https://twitter.com/smbentzen/status/165277086880243712" data-datetime="2012-02-03T03:35:02+00:00">February 3, 2012</a></blockquote><script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 I'm installing it right now in my Forefront TMG class.  
 Forefront TMG is some full of some pretty interesting stuff, I wish I had the money to buy and or play around with this kind of stuff.  
