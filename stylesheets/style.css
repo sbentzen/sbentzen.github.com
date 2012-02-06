@@ -72,7 +72,9 @@ a:hover{
 .container-fluid > .content{
 	margin-left:6em;
 }
-
+.dropdown{
+	text-shadow:none;
+}
 .bottom-padded{
 	padding-bottom:0.75em;
 }
