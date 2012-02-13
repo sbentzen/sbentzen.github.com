@@ -9,7 +9,7 @@ tags:
 type: post
 ---
 
-Holy smokes has it been one heck of a week. I've had many assignments, work, and various other things to do. I also would like to apologize to my english teacher, I'm sorry I can't cut my report down to 4 pages from 11. There is just too much content to be covered and too many restrictions <code> :( </code>.
+Holy smokes has it been one heck of a week. I've had many assignments, work, and various other things to do. I also would like to apologize to my english teacher, I'm sorry I can't cut my report down to 4 pages from 15. There is just too much content to be covered and too many restrictions <code>:(</code>. __Edit:__ I managed to get it down to about 10 pages... still not 4, but it's getting closer, freaking margins.
 
 On the plus side, I think I've figured out how to do split-dns properly and hopefully this means I can make my life much easier, HOORAY Forefront Threat Management Gateway curriculum for showing me something that may be useful!
 
