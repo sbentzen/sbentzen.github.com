@@ -23,6 +23,16 @@ h1{
 h1:hover{
 	color:#FF7D6E;
 }
+figure{
+	margin:0 auto;
+	width:auto;
+}
+
+figcaption{
+	font-size:9pt;
+	font-style: italic;
+}
+
 p{
 	line-height:1.35em;
 	font-size: 14pt;
