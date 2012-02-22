@@ -7,7 +7,7 @@
 */
 body {
 	font-size: 14pt;
-	background: #333 url("/images/bgp.png") repeat scroll top left;
+	background: rgb(90,90,90); 
 	text-shadow: 1px 1px 1px #333;
 	color:#F3F3F3;
 	margin-top:3em;
