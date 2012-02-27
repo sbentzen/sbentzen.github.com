@@ -45,18 +45,7 @@ a:hover{
 	text-decoration:none;
     color:#6EFF7D;
 }
-#myface{
-	-webkit-border-radius:4px;
-	-moz-border-radius:4px;
-	-webkit-box-shadow: 0 0 5px #333;
-	-moz-box-shadow: 0 0 5px #333;
-	opacity:0.8;
-	margin-right:1em;
-	float:left;
-}
-#myface:hover{
-	opacity:1.0;
-}
+
 #header_image{
 	width:940px;
 	display:block;
