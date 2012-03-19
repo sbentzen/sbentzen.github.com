@@ -15,7 +15,7 @@ body {
 code{
 	text-shadow:none;
 }
-h1{
+h1,h2,h3,h4,h5,h6{
 	font-family:'Ruda', sans-serif;
 	color:#CC766D;
 	border-bottom:1px solid #777;
