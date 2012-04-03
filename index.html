@@ -1,14 +1,36 @@
 ---
 layout: default
-
 title: Shaun Bentzen
 ---
-<img id="header_image" src="/images/landing.jpg" alt="Pathway in Ottawa Ontario">
-<br/>
-
-<p id="bio">
-	I'm Shaun Bentzen, I'm a third year student in the Computer Engineering Program at Cambrian College. <br/> I am an iPhone/iPad and Web developer, and a scripting enthusiast.<br/> I have two certifications from Apple and I am working on getting my CCNA, CCNA-S and CCNP and considering MCITP certifications.
-</p>
-<p>
-	<em>The photo above was taken in Nepean, Ontario where I used to live and is one of my favourite pictures.</em>
-</p>
+<div class="row span12 bottom-padded">
+	<img id="header_image" src="/images/landing.jpg" alt="Pathway in Ottawa Ontario">
+</div>
+<div class="row span12">
+	<p id="bio">
+		I'm Shaun Bentzen, I'm a third year student in the Computer Engineering Program at Cambrian College. <br/> I am an iPhone/iPad and Web developer, and a scripting enthusiast.<br/> I have two certifications from Apple and I am working on getting my CCNA, CCNA-S and CCNP and considering MCITP certifications.
+	</p>
+	<p>
+		<em>The photo above was taken in Nepean, Ontario where I used to live and is one of my favourite pictures.</em>
+	</p>
+	
+</div>
+<!-- <div class="row span12">
+	<div class="span12">
+		<table class="table table-condensed">
+			<thead>
+				<tr>
+					<th>Interesting Posts</th>
+				</tr>
+			</thead>
+			<tbody>
+				{% for post in site.tags.INTERESTING %}
+				<tr>
+					<td>
+					    <a href="{{post.url}}">{{ post.title }}</a>
+					</td>
+				</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+	</div>
+</div> -->

@@ -1,6 +1,8 @@
 ---
 layout: post
 published: true
+tags:
+- INTERESTING
 ---
 This post chronicles the journey that I had while upgrading from Snow Leopard Server to Lion Server. Short Story: it was a pain in the butt for most of it.
 
