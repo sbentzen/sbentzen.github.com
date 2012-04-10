@@ -2,11 +2,16 @@
 layout: default
 title: Blog
 ---
+
 <ul id="post_listing" class="unstyled">
 {% for post in site.posts %}
-<li class="bottom-padded">	
-    <a href="{{post.url}}">{{ post.title }}</a>
-    <span class="date white-text" style="float:right;">{{ post.date | date: '%B' }} {{ post.date | date: '%e' }}, {{ post.date | date: '%Y' }}</span>
-</li>
+<div class="span12">
+	<li class="bottom-padded">
+	    <a href="{{post.url}}">{{ post.title }}</a>
+	    <span class="date" style="float:right;">{{ post.date | date: '%B' }} {{ post.date | date: '%e' }}, {{ post.date | date: '%Y' }}</span>
+	</li>
+	
+</div>
+
 {% endfor %}
 </ul>
