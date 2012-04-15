@@ -7,9 +7,7 @@
 */
 body {
 	font-size: 14pt;
-	background: #444; 
-	text-shadow: 1px 1px 1px #333;
-	color:#F3F3F3;
+	background: #5a5a5a; 
 	margin-top:60px;
 }
 code{
@@ -32,10 +30,12 @@ figcaption{
 	font-size:9pt;
 	font-style: italic;
 }
-
 p{
 	line-height:1.35em;
 	font-size: 14pt;
+}
+.well img{
+	max-width:900px;
 }
 a{
 	text-decoration:none;
@@ -54,6 +54,9 @@ a:hover{
 	-moz-box-shadow: 0 0 5px #333;
 	box-shadow: 0 0 5px #333;
 	text-decoration:none;
+}
+#bio{
+	color:#efefef;
 }
 [class*="span"]{
 	margin-left:0px;
