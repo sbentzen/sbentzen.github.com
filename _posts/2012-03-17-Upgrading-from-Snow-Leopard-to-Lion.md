@@ -34,7 +34,7 @@ Midnight -- Holy shit, guess what decides that it wants to actually begin proper
 
 2:30 -- Alright, Things are going very well, I'm getting new services set up and all things haven't imploded or exploded. It looks like my pain has ended for now.
 
-4:00 -- and the pain has returned, i should have known better than to update rubygems, and thanks to this [article](support.apple.com/kb/TS4042?locale=en) but did I think otherwise
+4:00 -- and the pain has returned, i should have known better than to update rubygems, and thanks to this [article](http://support.apple.com/kb/TS4042?locale=en) but did I think otherwise
 
 6:46 -- I think things are going well. I just need to completely check the split DNS and get the rest of the zones that way to resolve properly, I feel like I have the patience of a deity right now.
 
