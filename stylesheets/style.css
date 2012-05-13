@@ -7,14 +7,14 @@
 */
 body {
 	font-size: 14pt;
-	background: #5a5a5a; 
+	background: #EEE; 
 	margin-top:60px;
 }
 code{
 	text-shadow:none;
 }
 h1,h2,h3,h4,h5,h6{
-	font-family:'Ruda', sans-serif;
+	font-family:'Lato', sans-serif;
 	color:#CC766D;
 	border-bottom:1px solid #777;
 }
@@ -54,9 +54,6 @@ a:hover{
 	-moz-box-shadow: 0 0 5px #333;
 	box-shadow: 0 0 5px #333;
 	text-decoration:none;
-}
-#bio{
-	color:#efefef;
 }
 [class*="span"]{
 	margin-left:0px;
