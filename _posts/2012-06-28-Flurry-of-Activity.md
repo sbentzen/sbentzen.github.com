@@ -3,7 +3,7 @@ layout: post
 published: true
 ---
 
-Holy smokes, I've had quite a flurry of activity lately. I just moved my blog to github, moved all of my services off my server, while and doing the job hunt thing. In the meanwhile, I've been doing a whole bunch of documentation. Which I've been using [headerdoc](https://developer.apple.com/library/mac/#documentation/DeveloperTools/Conceptual/HeaderDoc/intro/intro.html).  
+Holy smokes, I've had quite a flurry of activity lately. I just moved my blog to github, moved all of my services off my server, while and doing the job hunt thing. In the meanwhile, I've been doing a whole bunch of documentation. Which I've been using [appledoc](https://gentlebytes.com/appledoc/).  
 
 Also, finished Mass Effect 3 on tuesday with the extended cut. I had never actually finished the game until now, and I have to say that that was a satisfactory ending. It was not the "rousing ultimate victory" but it was so much better than the original endings. Enough of that.  
 
