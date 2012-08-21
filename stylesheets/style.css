@@ -6,7 +6,7 @@
 #FF7D6E
 */
 body {
-	font-size: 14pt;
+	font-size:14pt;
 	background: #EEE; 
 	margin-top:60px;
 }
@@ -45,8 +45,13 @@ a:hover{
 	color:#F90;
 }
 
+.brand > img{
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
 #header_image{
-	width:930px;
 	display:block;
 	-webkit-border-radius:2px;
 	-moz-border-radius:2px;
