@@ -1,6 +1,6 @@
 ---
-Layout: post
-Published: true
+layout: post
+published: true
 ---
 
 It's certainly been a while since I last posted. I don't recall as to whether I mentioned it or not, but I'll be moving to Ottawa in the coming weeks, out onto my own. This will be an experience. On a related note, holy smokes does costco ever have large sizes, I've had left overs for like a whole week from cooking one package of meat.  
