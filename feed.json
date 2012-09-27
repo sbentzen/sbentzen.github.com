@@ -1,0 +1,23 @@
+---
+layout: nil
+---
+{
+	"title": "Shaun Bentzen",
+	"link": "http://bentzen.ws/",
+	"description":"The personal blog of Shaun Bentzen",
+	"author":{
+		"name":"Shaun Bentzen",
+		"email":"sbentzen@gmail.com"
+	},
+	"items":[
+	{% for post in site.posts %}
+	{
+		"title":"{{ post.title }}",
+		"link": "http://bentzen.ws{{ post.url }}",
+		"pubDate":"{{post.date}}",
+		"postId":"http://bentzen.ws/{{post.id}}"	
+	},
+	{% endfor %}
+	{}
+	]			
+}
