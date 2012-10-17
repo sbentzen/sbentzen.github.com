@@ -9,15 +9,13 @@ layout: nil
 		"name":"Shaun Bentzen",
 		"email":"sbentzen@gmail.com"
 	},
-	"items":[
-	{% for post in site.posts %}
+	"items":[{% for post in site.posts %}
 	{
 		"title":"{{ post.title }}",
 		"link": "http://bentzen.ws{{ post.url }}",
 		"pubDate":"{{post.date}}",
 		"postId":"http://bentzen.ws/{{post.id}}"	
-	},
-	{% endfor %}
+	},{% endfor %}
 	{}
 	]			
 }

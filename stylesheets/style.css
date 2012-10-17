@@ -65,6 +65,7 @@ a:hover{
 [class*="span"]{
 	margin-left:0px;
 }
+::selection      { background:#c3effd; color:#000; /* Safari and Opera */ }
 .post{
 	height:6rem;
 	box-shadow: rgba(0, 0, 0, 0.0976563) 0px 0px 5px 1px;
