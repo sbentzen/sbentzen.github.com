@@ -2,17 +2,20 @@
 layout: default
 title: Blog
 ---
-
-{% for post in site.posts %}
-<a href="{{post.url}}">
-<div class="span2 bottom-padded" style="padding-left:1rem;">
-	<div class="post">
-		{{ post.title }}
-		<br/>
-		<span class="date" style="color:black; position:relative; bottom:0px;">{{ post.date | date_to_string }}</span>
+<div class="container">
+	<div class="" style="margin-top:3rem;">
+		{% for post in site.posts %}
+		<a href="{{post.url}}">
+		<div class="span2 bottom-padded" style="padding-left:1rem;">
+			<div class="post">
+				<p>{{ post.title }} <br/>
+				<span class="date" style="color:black; position:relative; bottom:0px;">{{ post.date | date_to_string }}</span>
+				</p>
+		
+			</div>  
+		</div>
+		</a>
+		{% endfor %}
 	</div>
-	    
-	    
+	
 </div>
-</a>
-{% endfor %}

@@ -7,20 +7,20 @@
 */
 body {
 	font-size:14pt;
-/*	background: #EEE;*/
-	background-image: url('/images/background.jpg'); 
-	margin-top:60px;
+	margin-top:50px;
+	background: gray linear-gradient(#ff9d2e,#fe4c5a);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
 }
 code{
 	text-shadow:none;
 }
 h1,h2,h3,h4,h5,h6{
 	font-family:'Lato', sans-serif;
-	color:#CC766D;
+	color:#555555;
+/*	color:#CC766D;*/
 	border-bottom:1px solid #777;
-}
-h1:hover{
-	color:#FF7D6E;
 }
 figure{
 	margin:0 auto;
@@ -32,7 +32,7 @@ figcaption{
 	font-style: italic;
 }
 p{
-	font-size:1.2rem;
+/*	font-size:1.2rem;*/
 	line-height:1.15;
 }
 .well img{
@@ -52,6 +52,9 @@ a:hover{
 	border-radius: 3px;
 	height:22px;
 }
+/*.navbar{
+	background: url('/images/banner.jpg') repeat scroll top left;
+}*/
 
 #header_image{
 	display:block;
@@ -66,13 +69,18 @@ a:hover{
 [class*="span"]{
 	margin-left:0px;
 }
-::selection      { background:#c3effd; color:#000; /* Safari and Opera */ }
+::selection      {  :#c3effd; color:#000; /* Safari and Opera */ }
 .post{
 	height:6rem;
 	box-shadow: rgba(0, 0, 0, 0.0976563) 0px 0px 5px 1px;
 	padding:1rem;
 	background-color:#fff;
 	opacity:0.75;
+	overflow:hidden;
+	text-overflow:clip;
+}
+.post p {
+
 }
 .post:hover{
 	box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 5px 1px;
