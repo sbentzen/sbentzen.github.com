@@ -7,8 +7,8 @@
 */
 body {
 	font-size:14pt;
-	margin-top:50px;
-	background: gray linear-gradient(#ff9d2e,#fe4c5a);
+	margin-top:5px;
+	background: #eee;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
@@ -31,19 +31,15 @@ figcaption{
 	font-size:9pt;
 	font-style: italic;
 }
-p{
-/*	font-size:1.2rem;*/
-	line-height:1.15;
-}
-.well img{
-	max-width:900px;
+
+.col img{
+	max-width:100%;
 }
 a{
 	text-decoration:none;
 }
 a:hover{
 	text-decoration:none;
-	color:#F90;
 }
 
 .brand > img{
@@ -52,42 +48,11 @@ a:hover{
 	border-radius: 3px;
 	height:22px;
 }
-/*.navbar{
-	background: url('/images/banner.jpg') repeat scroll top left;
-}*/
-
-#header_image{
-	display:block;
-	-webkit-border-radius:2px;
-	-moz-border-radius:2px;
-	border-radius:2px;
-	-webkit-box-shadow: 0 0 5px #333;
-	-moz-box-shadow: 0 0 5px #333;
-	box-shadow: 0 0 5px #333;
-	text-decoration:none;
-}
-[class*="span"]{
-	margin-left:0px;
-}
 ::selection      {  :#c3effd; color:#000; /* Safari and Opera */ }
-.post{
-	height:6rem;
-	box-shadow: rgba(0, 0, 0, 0.0976563) 0px 0px 5px 1px;
-	padding:1rem;
-	background-color:#fff;
-	opacity:0.75;
-	overflow:hidden;
-	text-overflow:clip;
-}
-.post p {
 
-}
 .post:hover{
 	box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 5px 1px;
 	opacity:1;
-}
-.dropdown{
-	text-shadow:none;
 }
 .bottom-padded{
 	padding-bottom:0.75em;
@@ -101,10 +66,4 @@ a:hover{
 }
 .hidden{
 	display:none;
-}
-.date{
-	font-size:10pt;
-}
-.white-text {
-	color:#F3F3F3;
 }
